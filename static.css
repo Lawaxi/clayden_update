@@ -79,8 +79,8 @@ aside#sidebar {
     background: transparent 0 0 no-repeat
 }
 
-aside#sidebar p.repo-owner,
-aside#sidebar p.repo-owner a {
+aside#sidebar p.kiwi,
+aside#sidebar p.kiwi a {
     font-weight: bold
 }
 
