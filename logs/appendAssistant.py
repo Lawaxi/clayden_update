@@ -6,17 +6,19 @@ try:
 except FileNotFoundError:
     logs = {}
 
-last_version = ""
+last_version = "未公布"
+last_contrib = "1304870761"
 
 while True:
     version = input(f"请输入版本号 ({last_version}): ") or last_version
     page = int(input("请输入页码: "))
     update_type = int(input("请输入更新类型 (默认为0): ") or 0)
-    contrib = input("请输入贡献者 (默认为空字符串): ") or ""
+    contrib = input("请输入贡献者 (默认为空字符串): ") or last_contrib
     pre_text = input("请输入此前文本: ")
     post_text = input("请输入此后文本: ")
 
     last_version = version
+    last_contrib = contrib
     
     new_entry = {"page": page, "type": update_type, "contrib": contrib, "pre": pre_text, "post": post_text}
 

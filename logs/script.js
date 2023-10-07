@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
         .then(response => response.json())
         .then(data => {
             const versions = Object.keys(data)
-                .sort((a, b) => (data[a][0] ? data[a][0].page || 0 : 0) - (data[b][0] ? data[b][0].page || 0 : 0));
+                .sort((a, b) => a.localeCompare(b));
             const versionUL = document.getElementById("version-ul");
 
             versions.forEach(version => {
