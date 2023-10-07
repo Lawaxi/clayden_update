@@ -91,6 +91,7 @@ function displayUpdateLog(updateData, version) {
 
     const updates = updateData[version];
     if (updates.length > 0) {
+		updates.sort((a, b) => a.page - b.page);
         updates.forEach(update => appendUpdateLog(updateLogContainer, update));
     }
 }
