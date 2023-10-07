@@ -131,7 +131,10 @@ function appendUpdateLog(container, update) {
 
     const arrowElement = document.createElement("div");
     arrowElement.classList.add("arrow");
-    arrowElement.innerHTML = "➡";
+    const i = document.createElement("i");
+	i.classList.add("fas");
+	i.classList.add("fa-angle-right");
+	arrowElement.appendChild(i);
     updateElement.appendChild(arrowElement);
 
     const postUpdate = document.createElement("div");
