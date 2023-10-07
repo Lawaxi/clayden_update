@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh_CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>版本更新记录</title>
+    <link rel="stylesheet" type="text/css" href="/static.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="shortcut icon" href="/favicon.ico" >
+</head>
+
+<body>
+    <header>
+        <div class="inner">
+            <a href="../" class="button">上一页</a>
+        </div>
+    </header>
+
+    <div id="content-wrapper">
+        <div class="inner">
+            <section id="main-content">
+                <h2>版本更新记录</h2>
+				<p>更新记录将从[2.10]开始记起，从前更新并未记录，非常抱歉。</p>
+				<div id="container">
+					<!-- 导航 -->
+					<nav id="nav">
+						<ul id="version-ul">
+						</ul>
+						<div id="compare-versions">
+							<div>
+								<select id="old-version">
+									<option value="0">早期版本</option>
+								</select>
+							</div>
+							<div>
+								<label>➡</label>
+								<select id="new-version"></select>
+							</div>
+						</div>
+					</nav>
+					
+					<hr>
+					
+					<!-- update-log -->
+					<div id="update-log">
+					</div>
+				</div>
+            </section>
+        </div>
+    </div>
+
+    <footer>
+        <!-- 添加页脚内容 -->
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
