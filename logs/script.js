@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 versionUL.appendChild(li);
             });
 			
-			//有数据是自动选择第一项
+			//有数据时自动选择第一项
 			if (versions.length !== 0) {
 				Array.from(versionUL.getElementsByTagName("li"))[0].classList.add("selected");
 				displayUpdateLog(data, versions[0]);
@@ -85,6 +85,8 @@ function fillNewVersionSelect(versions, selectedVersion, data) {
     });
 }
 
+var currentUpdates = [];
+
 function displayUpdateLog(updateData, version) {
     const updateLogContainer = document.getElementById("update-log");
     updateLogContainer.innerHTML = "";
@@ -92,14 +94,12 @@ function displayUpdateLog(updateData, version) {
     const updates = updateData[version];
     if (updates.length > 0) {
 		updates.sort((a, b) => a.page - b.page);
-        updates.forEach(update => appendUpdateLog(updateLogContainer, update));
+		currentUpdates = updates;
+		displayCurrentUpdates();
     }
 }
 
 function compareUpdateLog(updateData, oldVersion, newVersion) {
-    const updateLogContainer = document.getElementById("update-log");
-    updateLogContainer.innerHTML = "";
-
     const versionsToShow = getVersionRange(updateData, oldVersion, newVersion);
 	const allUpdates = [];
 
@@ -110,16 +110,33 @@ function compareUpdateLog(updateData, oldVersion, newVersion) {
         }
     });
 
-    allUpdates.sort((a, b) => a.page - b.page);
-    allUpdates.forEach(update => {
-        appendUpdateLog(updateLogContainer, update);
-    });
+    if (allUpdates.length > 0) {
+		allUpdates.sort((a, b) => a.page - b.page);
+		currentUpdates = allUpdates;
+		displayCurrentUpdates();
+	}
+}
+
+function displayCurrentUpdates(){
+    const updateLogContainer = document.getElementById("update-log");
+    updateLogContainer.innerHTML = "";
+    currentUpdates.forEach(update => appendUpdateLog(updateLogContainer, update));
 }
 
 function appendUpdateLog(container, update) {
+	if (!toggleShowAllUpdates.checked && update.type === 0) {
+        return;
+    }
+	
     const updateElement = document.createElement("div");
     updateElement.classList.add("update-version");
+    updateElement.classList.add(`risk-${update.type}`);
 
+    const typeElement = document.createElement("div");
+    typeElement.classList.add("update-type");
+	typeElement.innerHTML = `<i class="fas fa-${update.type ? 'exclamation' : 'ghost'}"></i>`;
+    updateElement.appendChild(typeElement);
+	
     const pageElement = document.createElement("div");
     pageElement.classList.add("page-number");
     pageElement.innerText = `页 ${update.page}`;
@@ -132,10 +149,7 @@ function appendUpdateLog(container, update) {
 
     const arrowElement = document.createElement("div");
     arrowElement.classList.add("arrow");
-    const i = document.createElement("i");
-	i.classList.add("fas");
-	i.classList.add("fa-angle-right");
-	arrowElement.appendChild(i);
+	arrowElement.innerHTML = '<i class="fas fa-angle-right"></i>';
     updateElement.appendChild(arrowElement);
 
     const postUpdate = document.createElement("div");
@@ -166,3 +180,8 @@ function getVersionRange(updateData, oldVersion, newVersion) {
 
     return versionsToShow;
 }
+
+const toggleShowAllUpdates = document.getElementById("show-all-updates");
+toggleShowAllUpdates.addEventListener("change", function () {
+    displayCurrentUpdates();
+});

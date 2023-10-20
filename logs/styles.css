@@ -18,7 +18,6 @@
 }
 
 #version-ul li {
-    margin-bottom: 10px;
     cursor: pointer;
     --color: #000;
     --bg: #ccc;
@@ -38,8 +37,12 @@
     padding: 0.1rem 0.5rem;
 }
 
-#compare-versions {
-    margin-top: 20px;
+#compare-versions, #toggle {
+    margin-top: 5px;
+}
+
+#compare-versions div {
+    margin-bottom: 5px;
 }
 
 #compare-versions label {
@@ -99,6 +102,24 @@ hr {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+	--risk-color: #FF6347;
+}
+
+.risk-0 {
+    --risk-color: #9ddcff;
+}
+
+.risk-1 {
+    --risk-color: #FFD700;
+}
+
+.update-type {
+    background-color: var(--risk-color);
+    border-radius: 0.5rem;
+    color: white;
+    margin-right: 0.5rem;
+    width: 1.5rem;
+    text-align: center;
 }
 
 .update-text {
@@ -107,7 +128,7 @@ hr {
 }
 
 .arrow {
-    color: #9ddcff;
+    color: var(--risk-color);
     font-size: 20px;
     padding: 0 10px;
 }
