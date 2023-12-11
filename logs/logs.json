@@ -4,129 +4,164 @@
             "page": 913,
             "type": 1,
             "contrib": "melody",
-            "pre": "\u5728\u4e24\u7aef\u90fd\u7ffb\u8f6c\uff1b\u5728\u4e24\u7aef\u90fd\u4fdd\u6301\uff08\u5de6\u4fa7\u56fe\u793a/\u540c\u9762\u53cd\u5e94\u7684\u03c3\u952e\uff09",
-            "post": "\u5728\u4e24\u7aef\u90fd\u4fdd\u6301\uff1b\u5728\u4e24\u7aef\u90fd\u7ffb\u8f6c"
+            "pre": "在两端都翻转；在两端都保持（左侧图示/同面反应的σ键）",
+            "post": "在两端都保持；在两端都翻转"
         },
         {
             "page": 436,
             "type": 0,
             "contrib": "Hdx",
-            "pre": "\u5f53\u7528\u4e59\u9187\u4e2d\u7684\u6eb4\u5904\u7406\u5f02\u4e01\u70ef\u65f6\uff08\u6bb53\uff09",
-            "post": "\u5f53\u7528\u7532\u9187\u4e2d\u7684\u6eb4\u5904\u7406\u5f02\u4e01\u70ef\u65f6"
+            "pre": "当用乙醇中的溴处理异丁烯时（段3）",
+            "post": "当用甲醇中的溴处理异丁烯时"
         },
         {
             "page": 913,
             "type": 0,
             "contrib": "hanklzh",
-            "pre": "\u662f\uff08\u7eff\u8272\u6846\uff09",
-            "post": "\u65f6"
+            "pre": "是（绿色框）",
+            "post": "时"
         },
         {
             "page": 665,
             "type": 0,
             "contrib": "yuchen weng",
-            "pre": "\u4e19\u4f1a\u5728\u672c\u7ae0\u7684\u7ed3\u5c3e\uff08\u7bad\u5934\u6846\uff09",
-            "post": "\u5e76\u4f1a\u5728\u672c\u7ae0\u7684\u7ed3\u5c3e"
+            "pre": "丙会在本章的结尾（箭头框）",
+            "post": "并会在本章的结尾"
         },
         {
             "page": 107,
             "type": 0,
-            "contrib": "\u5f53\u65f6\u53ea\u9053\u662f\u5bfb\u5e38",
-            "pre": "\u7528\u5149\u8c31\u6cd5\u4fa7\u7aef\u5206\u5b50\u7ed3\u6784\uff08\u8054\u7cfb-\u57fa\u7840\uff09",
-            "post": "\u7528\u5149\u8c31\u6cd5\u6d4b\u5b9a\u5206\u5b50\u7ed3\u6784"
+            "contrib": "当时只道是寻常",
+            "pre": "用光谱法侧端分子结构（联系-基础）",
+            "post": "用光谱法测定分子结构"
         },
         {
             "page": 98,
             "type": 0,
-            "contrib": "\u5f53\u65f6\u53ea\u9053\u662f\u5bfb\u5e38",
-            "pre": "\u916e\u5f0f\u540c\u76f8\u91cd\u53e0\uff08\u6700\u540e\u4e00\u884c\uff09",
-            "post": "\u540c\u65f6\u540c\u76f8\u91cd\u53e0"
+            "contrib": "当时只道是寻常",
+            "pre": "酮式同相重叠（最后一行）",
+            "post": "同时同相重叠"
         },
         {
             "page": 93,
             "type": 0,
-            "contrib": "\u5f53\u65f6\u53ea\u9053\u662f\u5bfb\u5e38",
-            "pre": "\u52a0\u78b1\uff08\u7eff\u6846\uff09",
-            "post": "\u52a0\u51cf"
+            "contrib": "当时只道是寻常",
+            "pre": "加碱（绿框）",
+            "post": "加减"
         },
         {
             "page": 92,
             "type": 1,
-            "contrib": "\u5f53\u65f6\u53ea\u9053\u662f\u5bfb\u5e38",
-            "pre": "\u6709\u7403\u5f62\u5bf9\u79f0\u6027\uff08\u7b2c\u4e8c\u6bb5\uff09",
-            "post": "\u6709\u5706\u67f1\u5f62\u5bf9\u79f0\u6027"
+            "contrib": "当时只道是寻常",
+            "pre": "有球形对称性（第二段）",
+            "post": "有圆柱形对称性"
         },
         {
             "page": 92,
             "type": 1,
-            "contrib": "\u5f53\u65f6\u53ea\u9053\u662f\u5bfb\u5e38",
-            "pre": "\uff0c\u90a3\u4e2a\u6700\u7a33\u5b9a\u7684\u4f4d\u7f6e\uff08\u6700\u540e\u4e00\u6bb5\uff09",
-            "post": "\uff08\u5220\u53bb\uff09"
+            "contrib": "当时只道是寻常",
+            "pre": "，那个最稳定的位置（最后一段）",
+            "post": "（删去）"
         },
         {
             "page": 193,
             "type": 0,
             "contrib": "3573461136",
-            "pre": "\u53ef\u591f\u5f97 \u4f46\u96be\u4ee5\u5e72\u71e5\uff08\u56fe\u793a2\uff09",
-            "post": "\u53ef\u8d2d\u5f97 \u4f46\u96be\u4ee5\u5e72\u71e5"
+            "pre": "可够得 但难以干燥（图示2）",
+            "post": "可购得 但难以干燥"
         },
         {
             "page": 58,
             "type": 1,
             "contrib": "3573461136",
-            "pre": "\u5b83\u670915\u4e2a\u539f\u5b50\uff08\u7b2c\u4e8c\u6bb5\uff09",
-            "post": "\u5b83\u670915\u4e2a\u78b3\u539f\u5b50"
+            "pre": "它有15个原子（第二段）",
+            "post": "它有15个碳原子"
         },
         {
             "page": 96,
             "type": 0,
             "contrib": "3573461136",
-            "pre": "\u5143\u7d20\u7684\u7535\u8d1f\u6027\u9010\u6e10\u4e0b\u964d\uff08\u7b2c\u4e00\u6bb5\uff09",
-            "post": "\u5143\u7d20\u7684\u7535\u8d1f\u6027\u9010\u6e10\u589e\u52a0"
+            "pre": "元素的电负性逐渐下降（第一段）",
+            "post": "元素的电负性逐渐增加"
         },
         {
             "page": 21,
             "type": 0,
             "contrib": "3573461136",
-            "pre": "\u5728\u76f4\u9762\u7684\u4e0b\u65b9\uff08\u6700\u540e\u4e00\u6bb5\uff09",
-            "post": "\u5728\u7eb8\u9762\u7684\u4e0b\u65b9"
+            "pre": "在直面的下方（最后一段）",
+            "post": "在纸面的下方"
         },
         {
             "page": 29,
             "type": 0,
             "contrib": "3573461136",
-            "pre": "\u81f3\u4e8e\u5176\u4ed6\u4e09\u4e2a\u539f\u5b50\u76f8\u8fde\uff08\u84dd\u6846\uff09",
-            "post": "\u53ea\u4e0e\u5176\u4ed6\u4e09\u4e2a\u539f\u5b50\u76f8\u8fde"
+            "pre": "至于其他三个原子相连（蓝框）",
+            "post": "只与其他三个原子相连"
         },
         {
             "page": 60,
             "type": 1,
             "contrib": "ChamLu11",
-            "pre": "\u53d7\u5230\u7684\u5c4f\u853d\u6bd4\u7532\u57fa\u4e0a\u7684H\u539f\u5b50\u591a\uff08\u7b2c\u4e00\u6bb5\uff09",
-            "post": "\u53d7\u5230\u7684\u5c4f\u853d\u5c11\u4e8e\u7532\u57fa\u4e0a\u7684H\u539f\u5b50"
+            "pre": "受到的屏蔽比甲基上的H原子多（第一段）",
+            "post": "受到的屏蔽少于甲基上的H原子"
         },
         {
             "page": 51,
             "type": 0,
-            "contrib": "\u5f53\u65f6\u53ea\u9053\u662f\u5bfb\u5e38",
-            "pre": "\u88ab\u786e\u5b9a\u4e86\u3002\u5bfb\uff08\u7b2c\u4e00\u6bb5\uff09",
-            "post": "\uff08\u5220\u53bb\uff09"
+            "contrib": "当时只道是寻常",
+            "pre": "被确定了。寻（第一段）",
+            "post": "（删去）"
         },
         {
             "page": 52,
             "type": 0,
-            "contrib": "\u5f53\u65f6\u53ea\u9053\u662f\u5bfb\u5e38",
-            "pre": "NMR\u662f\u7684\u4f5c\u7528\u6781\u4e3a\u5e7f\u6cdb\uff08\u7b2c\u4e00\u6bb5\uff09",
-            "post": "NMR\u7684\u4f5c\u7528\u6781\u4e3a\u5e7f\u6cdb"
+            "contrib": "当时只道是寻常",
+            "pre": "NMR是的作用极为广泛（第一段）",
+            "post": "NMR的作用极为广泛"
         }
     ],
-    "\u672a\u516c\u5e03": [
+    "未公布": [
         {
             "page": 493,
             "type": 1,
             "contrib": "1304870761",
-            "pre": "\uff08\u7b2c\u4e09\u884c\u56fe\uff09",
-            "post": "\uff08\u7b2c\u4e8c\u4e2a\u7ed3\u6784\u6700\u4e0b\u65b9H\u5e94\u8be5\u5728\u7b2c\u4e09\u4e2a\u7ed3\u6784\u4e2d\uff09"
+            "pre": "（第三行图）",
+            "post": "（第二个结构最下方H应该在第三个结构中）"
+        },
+        {
+            "page": 27,
+            "type": 1,
+            "contrib": "王祚升",
+            "pre": "异丁醇（黄框中）",
+            "post": "仲丁醇"
+        },
+        {
+            "page": 27,
+            "type": 1,
+            "contrib": "王祚升",
+            "pre": "2-甲基-2-丁醇（黄框中）",
+            "post": "2-甲基-2-丙醇"
+        },
+        {
+            "page": 0,
+            "type": 1,
+            "contrib": "寸子翔",
+            "pre": "xvi页：TIPS 三异丙基轨迹",
+            "post": "TIPS 三异丙基硅基"
+        },
+        {
+            "page": 292,
+            "type": 1,
+            "contrib": "3201919997",
+            "pre": "HX（红色）、HA（绿色）（最下面的图）",
+            "post": "HX（绿色）、HA（红色）"
+        },
+		{
+            "page": 430,
+            "type": 1,
+            "contrib": "Leo Wing",
+            "pre": "三氟甲磺酸酐、过三氟甲磺酸（蓝框中）",
+            "post": "三氟乙酸酐、三氟过乙酸"
         }
     ]
 }
