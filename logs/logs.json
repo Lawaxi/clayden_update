@@ -809,5 +809,21 @@
             "pre": "\u516d\u79bb\u57df\u7684\u03c0\u7535\u5b50",
             "post": "\u516d\u4e2a\u79bb\u57df\u7684\u03c0\u7535\u5b50"
         }
+    ],
+    "\u672a\u516c\u5e03": [
+        {
+            "page": 945,
+            "type": 0,
+            "contrib": "WisTomm",
+            "pre": "\uff08\u6700\u540e\u4e00\u6bb5\uff09\u9996\u5148\u5f62\u6210\u5f97\u78b3\u9633\u79bb\u5b50",
+            "post": "\u9996\u5148\u5f62\u6210\u7684\u78b3\u9633\u79bb\u5b50"
+        },
+        {
+            "page": 946,
+            "type": 0,
+            "contrib": "WisTomm",
+            "pre": "\uff08\u7b2c\u4e8c\u4e2a\u7eff\u6846\uff09\u4f1a\u4f7f",
+            "post": "\u4f1a\u662f"
+        }
     ]
 }
