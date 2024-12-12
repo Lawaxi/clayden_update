@@ -810,7 +810,7 @@
             "post": "\u516d\u4e2a\u79bb\u57df\u7684\u03c0\u7535\u5b50"
         }
     ],
-    "\u672a\u516c\u5e03": [
+    "20241212[2.12]": [
         {
             "page": 945,
             "type": 0,
@@ -852,6 +852,55 @@
             "contrib": "\u5c0f\u6977\u9e2d",
             "pre": "\uff08\u84dd\u6846\uff09\u800c\u5171\u8f6d\u5173\u6ce8\u5b83\u4eec\u4e2d\u7684\u7535\u5b50",
             "post": "\u800c\u79bb\u57df\u5173\u6ce8\u5b83\u4eec\u4e2d\u7684\u7535\u5b50"
+        },
+        {
+            "page": 160,
+            "type": 1,
+            "contrib": "\u62db\u8003\u989d\u4f4e\u6c89",
+            "pre": "\u73af\u620a\u4e8c\u70ef\uff08\u7b2c\u4e8c\u8282\u7b2c\u4e00\u6bb5\uff09",
+            "post": "\u73af\u8f9b\u56db\u70ef"
+        },
+        {
+            "page": 659,
+            "type": 1,
+            "contrib": "Wei Stone",
+            "pre": "\u597d\u7684\u8f6f\u4eb2\u6838\u8bd5\u5242\uff08\u84dd\u8868\u4e2d\uff09",
+            "post": "\u597d\u7684\u8f6f\u4eb2\u7535\u8bd5\u5242"
+        },
+        {
+            "page": 579,
+            "type": 1,
+            "contrib": "\u90b9\u540c\u5b66",
+            "pre": "\u9ed1\u8272\uff08\u6700\u540e\u4e00\u6bb5\uff09",
+            "post": "\u7eff\u8272"
+        },
+        {
+            "page": 186,
+            "type": 0,
+            "contrib": "\u90b9\u540c\u5b66",
+            "pre": "\u6709\u673a\u91d1\u5c5e\u8bd5\u5242\u7528\u505a\u78b1",
+            "post": "\u6709\u673a\u91d1\u5c5e\u8bd5\u5242\u7528\u4f5c\u78b1"
+        },
+        {
+            "page": 566,
+            "type": 0,
+            "contrib": "\u90b9\u540c\u5b66",
+            "pre": "\u4e2d\u95f4\u7684\u952e\u6bd4\u5176\u4f59\u7684\u51e0\u6839\u7aef\uff08\u7eff\u6846\uff09",
+            "post": "\u4e2d\u95f4\u7684\u952e\u6bd4\u5176\u4f59\u7684\u51e0\u6839\u77ed"
+        },
+        {
+            "page": 280,
+            "type": 0,
+            "contrib": "\u90b9\u540c\u5b66",
+            "pre": "\u65e2\u662f\u6c1f\u662f\u7535\u8d1f\u6027\u6700\u5927\u7684\uff08\u5012\u6570\u7b2c\u4e09\u6bb5\uff09",
+            "post": "\u5373\u4f7f\u6c1f\u662f\u7535\u8d1f\u6027\u6700\u5927\u7684"
+        },
+        {
+            "page": 410,
+            "type": 0,
+            "contrib": "1763353689",
+            "pre": "\u4e0d\u4f1a\u7834\uff08\u7b2c\u4e09\u8282\u7b2c\u4e8c\u6bb5\uff09",
+            "post": "\u4e0d\u6d3b\u6cfc"
         }
     ]
 }
