@@ -21,15 +21,20 @@ document.addEventListener("DOMContentLoaded", function () {
                 versionUL.appendChild(li);
             });
 			
-			//有数据时自动选择第一项
-			if (versions.length !== 0) {
-				Array.from(versionUL.getElementsByTagName("li"))[0].classList.add("selected");
-				displayUpdateLog(data, versions[0]);
-			}	
-			
 			//对比工具
             const oldVersionSelect = document.getElementById("old-version");
             const newVersionSelect = document.getElementById("new-version");
+			
+			if (versions.length >= 2) {
+                const oldVersion = versions[versions.length - 2];
+                const newVersion = versions[versions.length - 1];
+            
+                oldVersionSelect.value = oldVersion;
+                fillNewVersionSelect(versions, oldVersion, data);
+                newVersionSelect.value = newVersion;
+            
+                compareUpdateLog(data, oldVersion, newVersion);
+            }
 
             versions.forEach(version => {
                 const option1 = document.createElement("option");
@@ -93,7 +98,7 @@ function displayUpdateLog(updateData, version) {
 
     const updates = updateData[version];
     if (updates.length > 0) {
-		updates.sort((a, b) => a.page - b.page);
+		updates.sort(comparePages);
 		currentUpdates = updates;
 		displayCurrentUpdates();
     }
@@ -111,7 +116,7 @@ function compareUpdateLog(updateData, oldVersion, newVersion) {
     });
 
     if (allUpdates.length > 0) {
-		allUpdates.sort((a, b) => a.page - b.page);
+		allUpdates.sort(comparePages);
 		currentUpdates = allUpdates;
 		displayCurrentUpdates();
 	}
@@ -139,7 +144,9 @@ function appendUpdateLog(container, update) {
 	
     const pageElement = document.createElement("div");
     pageElement.classList.add("page-number");
-    pageElement.innerText = `页 ${update.page}`;
+    pageElement.innerText = update.page === 0
+    ? `页 ${update.page1}`
+    : `页 ${update.page}`;
     updateElement.appendChild(pageElement);
 
     const preUpdate = document.createElement("div");
@@ -185,3 +192,30 @@ const toggleShowAllUpdates = document.getElementById("show-all-updates");
 toggleShowAllUpdates.addEventListener("change", function () {
     displayCurrentUpdates();
 });
+
+function romanToNumber(roman) {
+    const map = { i:1, v:5, x:10, l:50, c:100 };
+    let result = 0, prev = 0;
+
+    roman = roman.toLowerCase();
+    for (let i = roman.length - 1; i >= 0; i--) {
+        const val = map[roman[i]] || 0;
+        if (val < prev) result -= val;
+        else result += val;
+        prev = val;
+    }
+    return result;
+}
+
+function comparePages(a, b) {
+    if (a.page !== 0 && b.page !== 0) {
+        return a.page - b.page;
+    }
+    if (a.page !== 0) return 1;
+    if (b.page !== 0) return -1;
+    if (a.page1 && b.page1 && /^[ivxlc]+$/i.test(a.page1) && /^[ivxlc]+$/i.test(b.page1)) {
+        return romanToNumber(a.page1) - romanToNumber(b.page1);
+    }
+
+    return 0;
+}
