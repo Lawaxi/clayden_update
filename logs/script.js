@@ -24,17 +24,6 @@ document.addEventListener("DOMContentLoaded", function () {
 			//对比工具
             const oldVersionSelect = document.getElementById("old-version");
             const newVersionSelect = document.getElementById("new-version");
-			
-			if (versions.length >= 2) {
-                const oldVersion = versions[versions.length - 2];
-                const newVersion = versions[versions.length - 1];
-            
-                oldVersionSelect.value = oldVersion;
-                fillNewVersionSelect(versions, oldVersion, data);
-                newVersionSelect.value = newVersion;
-            
-                compareUpdateLog(data, oldVersion, newVersion);
-            }
 
             versions.forEach(version => {
                 const option1 = document.createElement("option");
@@ -68,6 +57,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 compareUpdateLog(data, oldVersionSelect.value, newVersionSelect.value);
             });
             fillNewVersionSelect(versions, "0", data);
+            
+            //默认最后一版
+            const items = versionUL.getElementsByTagName("li");
+            if (items.length > 0) {
+                items[items.length - 1].click();
+            }
         })
         .catch(error => console.error("Error loading update log:", error));
 });
