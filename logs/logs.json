@@ -1178,5 +1178,42 @@
             "pre": "（最后一行）过酸的LUMO",
             "post": "过羧酸的LUMO"
         }
+    ],
+    "未公布": [
+        {
+            "page": 2,
+            "type": 0,
+            "contrib": "aengmor",
+            "pre": "（第3段）辛乔纳树皮",
+            "post": "金鸡纳树(cinchona)树皮"
+        },
+        {
+            "page": 155,
+            "type": 0,
+            "contrib": "xianfishyu",
+            "pre": "（最后一句）跟",
+            "post": "根"
+        },
+        {
+            "page": 6,
+            "type": 0,
+            "contrib": "mcdalu",
+            "pre": "（第三段）拥",
+            "post": "拥有"
+        },
+        {
+            "page": 474,
+            "type": 0,
+            "contrib": "L-Sven-C",
+            "pre": "环己烷",
+            "post": "环己烯"
+        },
+        {
+            "page": 433,
+            "type": 0,
+            "contrib": "ToromyZhang",
+            "pre": "（图）环己烷",
+            "post": "环己烯"
+        }
     ]
 }
