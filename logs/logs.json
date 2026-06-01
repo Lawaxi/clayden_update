@@ -1340,6 +1340,371 @@
             "contrib": "渡云启",
             "pre": "（第二段）从任意一端开始数得到的两组编号都可以使用",
             "post": "从任意一端开始数得到的两组编号都可以使用，但往往会选择得到的数字最小的"
+        },
+        {
+            "page": 0,
+            "type": 0,
+            "contrib": " ",
+            "pre": "（第4段）特定",
+            "post": "特点",
+            "page1": "xxvi"
+        },
+        {
+            "page": 467,
+            "type": 1,
+            "contrib": "CS化竞班",
+            "pre": "（标题）烯醇醚的制备",
+            "post": "烯醇酯的制备"
+        },
+        {
+            "page": 324,
+            "type": 0,
+            "contrib": "CS化竞班",
+            "pre": "（图中）分别得到两种非对应异构体",
+            "post": "分别得到两种非对映异构体"
+        },
+        {
+            "page": 669,
+            "type": 0,
+            "contrib": "M1CR0M4K3R",
+            "pre": "（第4行）像碳极化",
+            "post": "向碳极化"
+        },
+        {
+            "page": 678,
+            "type": 0,
+            "contrib": "M1CR0M4K3R",
+            "pre": "（蓝框第2行）控制它们自身的发遇",
+            "post": "控制它们自身的发育"
+        },
+        {
+            "page": 681,
+            "type": 0,
+            "contrib": "M1CR0M4K3R",
+            "pre": "（绿框）分局",
+            "post": "分踞"
+        },
+        {
+            "page": 683,
+            "type": 0,
+            "contrib": "M1CR0M4K3R",
+            "pre": "（第四段）亲核试剂对丁二烯的加成",
+            "post": "亲核试剂对丁二炔的加成"
+        },
+        {
+            "page": 685,
+            "type": 1,
+            "contrib": "M1CR0M4K3R",
+            "pre": "（第三段）(cycloaddition)",
+            "post": "(reverse cycloaddition)"
+        },
+        {
+            "page": 689,
+            "type": 0,
+            "contrib": "M1CR0M4K3R",
+            "pre": "（第三段最后一句）完成",
+            "post": "结束"
+        },
+        {
+            "page": 692,
+            "type": 0,
+            "contrib": "M1CR0M4K3R",
+            "pre": "（第二段）很好地反映",
+            "post": "很好地反应"
+        },
+        {
+            "page": 697,
+            "type": 0,
+            "contrib": "M1CR0M4K3R",
+            "pre": "（第一个黄色框）合成中所用的真是化合物",
+            "post": "合成中所用的真实化合物"
+        },
+        {
+            "page": 710,
+            "type": 0,
+            "contrib": "M1CR0M4K3R",
+            "pre": "（第1行）它可以在那里切断呢",
+            "post": "它可以在哪里切断呢"
+        },
+        {
+            "page": 721,
+            "type": 0,
+            "contrib": "M1CR0M4K3R",
+            "pre": "（第2行）还要",
+            "post": "还有"
+        },
+        {
+            "page": 724,
+            "type": 0,
+            "contrib": "M1CR0M4K3R",
+            "pre": "（第四段）一堆孤对电子占据了",
+            "post": "一对孤对电子占据了"
+        },
+        {
+            "page": 729,
+            "type": 0,
+            "contrib": "M1CR0M4K3R",
+            "pre": "（倒数第二段）很好地反映",
+            "post": "很好地反应"
+        },
+        {
+            "page": 735,
+            "type": 1,
+            "contrib": "M1CR0M4K3R",
+            "pre": "（第二段）继而在加热下脱酸",
+            "post": "继而在加热下脱羧"
+        },
+        {
+            "page": 739,
+            "type": 0,
+            "contrib": "M1CR0M4K3R",
+            "pre": "（侧栏）内型和外形",
+            "post": "内型和外型"
+        },
+        {
+            "page": 741,
+            "type": 0,
+            "contrib": "M1CR0M4K3R",
+            "pre": "（最后一行）上一附图示",
+            "post": "上一幅图示"
+        },
+        {
+            "page": 762,
+            "type": 0,
+            "contrib": "M1CR0M4K3R",
+            "pre": "（第二段）移动倒与酮共轭",
+            "post": "移动到与酮共轭"
+        },
+        {
+            "page": 766,
+            "type": 0,
+            "contrib": "M1CR0M4K3R",
+            "pre": "（第三段）稳定得Mannich碱只需于另一个酮简单地加热",
+            "post": "稳定的Mannich碱只需与另一个酮简单地加热"
+        },
+        {
+            "page": 769,
+            "type": 0,
+            "contrib": "M1CR0M4K3R",
+            "pre": "（第三段）于Chapter26中讨论共",
+            "post": "于Chapter26中讨论过"
+        },
+        {
+            "page": 770,
+            "type": 1,
+            "contrib": "M1CR0M4K3R",
+            "pre": "（原书错误 标题）脒",
+            "post": "胍"
+        },
+        {
+            "page": 771,
+            "type": 0,
+            "contrib": "M1CR0M4K3R",
+            "pre": "（第2行）以及处于",
+            "post": "已经处于"
+        },
+        {
+            "page": 771,
+            "type": 0,
+            "contrib": "M1CR0M4K3R",
+            "pre": "（第四段）将会吧氧化态弄错",
+            "post": "将会把氧化态弄错"
+        },
+        {
+            "page": 773,
+            "type": 0,
+            "contrib": "M1CR0M4K3R",
+            "pre": "（第3行）盐酸盐的形式提供应",
+            "post": "盐酸盐的形式提供"
+        },
+        {
+            "page": 467,
+            "type": 1,
+            "contrib": "青泽",
+            "pre": "（三处）烯醇酯",
+            "post": "烯醇醚"
+        },
+        {
+            "page": 324,
+            "type": 0,
+            "contrib": "青泽",
+            "pre": "（图中）分别得到两种非对应异构体",
+            "post": "分别得到两种非对映异构体"
+        },
+        {
+            "page": 244,
+            "type": 1,
+            "contrib": "Lisk Lee",
+            "pre": "（蓝框）2.390 kcal",
+            "post": "2,390 kcal"
+        },
+        {
+            "page": 275,
+            "type": 0,
+            "contrib": "Lisk Lee",
+            "pre": "（第二段最后一行）for",
+            "post": "（删去）"
+        },
+        {
+            "page": 440,
+            "type": 0,
+            "contrib": "王浩博",
+            "pre": "（最后一段）构想上的改变",
+            "post": "构象上的改变"
+        },
+        {
+            "page": 444,
+            "type": 0,
+            "contrib": "王浩博",
+            "pre": "（倒数第二段）剂使用还原剂",
+            "post": "即使用还原剂"
+        },
+        {
+            "page": 461,
+            "type": 0,
+            "contrib": "王浩博",
+            "pre": "（第三段）既可作为",
+            "post": "即可作为"
+        },
+        {
+            "page": 509,
+            "type": 1,
+            "contrib": "王浩博",
+            "pre": "（第1行）将镁换成了酮",
+            "post": "将镁换成了铜"
+        },
+        {
+            "page": 461,
+            "type": 1,
+            "contrib": "王浩博",
+            "pre": "（第五段）没有上面不同",
+            "post": "没有什么不同"
+        },
+        {
+            "page": 526,
+            "type": 0,
+            "contrib": "王浩博",
+            "pre": "（第2行）仍应当时亲核性",
+            "post": "仍应当是亲核性"
+        },
+        {
+            "page": 542,
+            "type": 1,
+            "contrib": "王浩博",
+            "pre": "（最后1行）区域选择性烷烃",
+            "post": "区域选择性问题"
+        },
+        {
+            "page": 551,
+            "type": 0,
+            "contrib": "王浩博",
+            "pre": "（第二段）酸性条件下存货",
+            "post": "酸性条件下存活"
+        },
+        {
+            "page": 552,
+            "type": 1,
+            "contrib": "王浩博",
+            "pre": "（第二段第4行）叔丁胺醇",
+            "post": "沙丁胺醇"
+        },
+        {
+            "page": 557,
+            "type": 1,
+            "contrib": "王浩博",
+            "pre": "（右下角蓝色框）端往往写在左侧",
+            "post": "N-端往往写在左侧"
+        },
+        {
+            "page": 584,
+            "type": 0,
+            "contrib": "王浩博",
+            "pre": "（第3行）使用的确实",
+            "post": "使用的却是"
+        },
+        {
+            "page": 586,
+            "type": 0,
+            "contrib": "王浩博",
+            "pre": "（第二段）的兼容的",
+            "post": "是兼容的"
+        },
+        {
+            "page": 603,
+            "type": 0,
+            "contrib": "王浩博",
+            "pre": "（图2）直接加乘",
+            "post": "直接加成"
+        },
+        {
+            "page": 608,
+            "type": 0,
+            "contrib": "王浩博",
+            "pre": "（第二段）烯醇盐-亚铵例子",
+            "post": "烯醇盐-亚铵离子"
+        },
+        {
+            "page": 609,
+            "type": 0,
+            "contrib": "王浩博",
+            "pre": "（第三段）在这些反应在",
+            "post": "在这些反应中"
+        },
+        {
+            "page": 605,
+            "type": 0,
+            "contrib": "王浩博",
+            "pre": "（第二段）直接加乘",
+            "post": "直接加成"
+        },
+        {
+            "page": 984,
+            "type": 0,
+            "contrib": "王浩博",
+            "pre": "（第四段）它更像找到另一个自由基二聚",
+            "post": "它更想找到另一个自由基二聚"
+        },
+        {
+            "page": 313,
+            "type": 0,
+            "contrib": "FXSS8610",
+            "pre": "（黄框第1行）对应异构体",
+            "post": "对映异构体"
+        },
+        {
+            "page": 327,
+            "type": 1,
+            "contrib": "FXSS8610",
+            "pre": "（图1）固定性",
+            "post": "固定相"
+        },
+        {
+            "page": 262,
+            "type": 1,
+            "contrib": "FXSS8610",
+            "pre": "（最后一段）亚胺的消除反应",
+            "post": "亚胺的形成反应"
+        },
+        {
+            "page": 97,
+            "type": 0,
+            "contrib": "FXSS8610",
+            "pre": "（表）两个原子贡共享",
+            "post": "两个原子共享"
+        },
+        {
+            "page": 641,
+            "type": 0,
+            "contrib": "jqguo131",
+            "pre": "（第4行）这个过程中小号",
+            "post": "这个过程中消耗"
+        },
+        {
+            "page": 585,
+            "type": 1,
+            "contrib": "Sierra Hugh Vulpes",
+            "pre": "（第三段）强碱...pKa...小...弱碱...pKa...大",
+            "post": "强碱...pKa...大...弱碱...pKa...小"
         }
     ]
 }
